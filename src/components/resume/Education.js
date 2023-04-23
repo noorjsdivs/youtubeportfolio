@@ -18,33 +18,33 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="PhD (CSIR-SRF)"
-            subTitle="CSIR-Indian Institute of Integrative Medicine http://www.iiim.res.in/ , Jammu, enrolled in AcSIR (Academy of Scientific and Innovative Research, http://acsir.res.in/ ). Under Supervision of Dr. Ram A. Vishwakarma(2011-2015)"
+            subTitle="CSIR-Indian Institute of Integrative Medicine, Jammu, enrolled in AcSIR (Academy of Scientific and Innovative Research). Under Supervision of Dr. Ram A. Vishwakarma(2011-2015)"
             result="India"
-            des="Title- Isolation, Synthetic Modifications and Biological Evaluaton of Compounds from Dysoxylum binectariferum, Bergenia ciliata and Mallotus philippensis, Submitted on 11 February 2015, Awarded on Sept 3, 2015."
+            // des="Title- Isolation, Synthetic Modifications and Biological Evaluaton of Compounds from Dysoxylum binectariferum, Bergenia ciliata and Mallotus philippensis, Submitted on 11 February 2015, Awarded on Sept 3, 2015."
           />
           <ResumeCard
             title="M.S.(Pharm)"
-            subTitle="From Natural Product Chemistry Department, NIPER-Mohali http://www.niper.ac.in/ , Under Supervision of Dr. IP Singh(2005-2007)"
+            subTitle="From Natural Product Chemistry Department, NIPER-Mohali, Under Supervision of Dr. IP Singh(2005-2007)"
             result="India"
-            des="Title- Synthesis and antileishmanial activity of piperine - amino acid conjugates
-CGPA: 8.64/10"
+            // des="Title- Synthesis and antileishmanial activity of piperine - amino acid conjugates
+// CGPA: 8.64/10"
           />
           <ResumeCard
             title="B.Pharmacy"
-            subTitle="Lachoo Memorial College of Science & Technology- http:// www.lachoomemorial.org/ Jodhpur (affiliated to University of Rajasthan, Jaipur, 2001-2004) with 70 %."
-            result="India (Rajasthan)"
+            subTitle="Lachoo Memorial College of Science & Technology-Jodhpur (affiliated to University of Rajasthan, Jaipur, 2001-2004) with 70 %."
+            result="India"
             // des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
           <ResumeCard
             title="12th RBSE Ajmer"
             // subTitle="Lachoo Memorial College of Science & Technology- http:// www.lachoomemorial.org/ Jodhpur (affiliated to University of Rajasthan, Jaipur, 2001-2004) with 70 %."
-            result="India (Rajasthan)"
+            result="India"
             // des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
           <ResumeCard
             title="10th RBSE-Ajmer"
             // subTitle="Lachoo Memorial College of Science & Technology- http:// www.lachoomemorial.org/ Jodhpur (affiliated to University of Rajasthan, Jaipur, 2001-2004) with 70 %."
-            result="India (Rajasthan)"
+            result="India"
             // des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
@@ -71,32 +71,27 @@ CGPA: 8.64/10"
           />
           <ResumeCard
             title="Post-Doctoral Research Associate (CSIR-RA)"
-            subTitle="CSIR-Indian Institute of Integrative Medicine http://www.iiim.res.in/ , Jammu - (2015 - 2016)"
+            subTitle="CSIR-Indian Institute of Integrative Medicine, Jammu - (2015 - 2016)"
             result="India"
             // des="enrolled in AcSIR (Academy of Scientific and Innovative Research, http://acsir.res.in/ ). Under Supervision of Dr. Ram A. Vishwakarma"
           />
           <ResumeCard
             title="Research Assistant"
-            subTitle="CSIR-Indian Institute of Integrative Medicine http://www.iiim.res.in/ , Jammu - (2010 - 2011)"
+            subTitle="CSIR-Indian Institute of Integrative Medicine, Jammu - (2010 - 2011)"
             result="India"
             // des="enrolled in AcSIR (Academy of Scientific and Innovative Research, http://acsir.res.in/ ). Under Supervision of Dr. Ram A. Vishwakarma"
           />
           <ResumeCard
             title="Research Assistant (Industrial R & D)"
-            subTitle="CSIR-Indian Institute of Integrative Medicine http://www.iiim.res.in/ , Jammu - (2010 - 2011)"
+            subTitle="CSIR-Indian Institute of Integrative Medicine, Jammu - (2010 - 2011)"
             result="India"
             // des="enrolled in AcSIR (Academy of Scientific and Innovative Research, http://acsir.res.in/ ). Under Supervision of Dr. Ram A. Vishwakarma"
           />
           <ResumeCard
             title="Research Associate"
-            subTitle="<ResumeCard"
-            title="Research Assistant"
             subTitle="CSIR-Indian Institute of Integrative Medicine (2007-2010)"
             result="India"
             // des="In Natural Product Chemistry lab (Medicinal Chemistry division) New Chemical Entities"
-          />
-            result="India"
-            des="enrolled in AcSIR (Academy of Scientific and Innovative Research, http://acsir.res.in/ ). Under Supervision of Dr. Ram A. Vishwakarma"
           />
         </div>
       </div>
