@@ -17,22 +17,35 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="PhD (CSIR-SRF)"
+            subTitle="CSIR-Indian Institute of Integrative Medicine, Jammu, enrolled in AcSIR (Academy of Scientific and Innovative Research). Under Supervision of Dr. Ram A. Vishwakarma(2011-2015)"
+            result="India"
+            // des="Title- Isolation, Synthetic Modifications and Biological Evaluaton of Compounds from Dysoxylum binectariferum, Bergenia ciliata and Mallotus philippensis, Submitted on 11 February 2015, Awarded on Sept 3, 2015."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="M.S.(Pharm)"
+            subTitle="From Natural Product Chemistry Department, NIPER-Mohali, Under Supervision of Dr. IP Singh(2005-2007)"
+            result="India"
+            // des="Title- Synthesis and antileishmanial activity of piperine - amino acid conjugates
+// CGPA: 8.64/10"
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="B.Pharmacy"
+            subTitle="Lachoo Memorial College of Science & Technology-Jodhpur (affiliated to University of Rajasthan, Jaipur, 2001-2004) with 70 %."
+            result="India"
+            // des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+          />
+          <ResumeCard
+            title="12th RBSE Ajmer"
+            // subTitle="Lachoo Memorial College of Science & Technology- http:// www.lachoomemorial.org/ Jodhpur (affiliated to University of Rajasthan, Jaipur, 2001-2004) with 70 %."
+            result="India"
+            // des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+          />
+          <ResumeCard
+            title="10th RBSE-Ajmer"
+            // subTitle="Lachoo Memorial College of Science & Technology- http:// www.lachoomemorial.org/ Jodhpur (affiliated to University of Rajasthan, Jaipur, 2001-2004) with 70 %."
+            result="India"
+            // des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
       </div>
@@ -45,22 +58,40 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
+            title="Assistant Professor"
+            subTitle="IIT BHU VARANASI - (2018 - Present)"
+            result="India"
+            // des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+          />
+          <ResumeCard
+            title="Post-Doctoral Research Associate"
+            subTitle="Georgetown university Washington DC- (2016 - 2018)"
             result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            // des="LCMS based Metabolomics and Proteomics"
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Post-Doctoral Research Associate (CSIR-RA)"
+            subTitle="CSIR-Indian Institute of Integrative Medicine, Jammu - (2015 - 2016)"
+            result="India"
+            // des="enrolled in AcSIR (Academy of Scientific and Innovative Research, http://acsir.res.in/ ). Under Supervision of Dr. Ram A. Vishwakarma"
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Research Assistant"
+            subTitle="CSIR-Indian Institute of Integrative Medicine, Jammu - (2010 - 2011)"
+            result="India"
+            // des="enrolled in AcSIR (Academy of Scientific and Innovative Research, http://acsir.res.in/ ). Under Supervision of Dr. Ram A. Vishwakarma"
+          />
+          <ResumeCard
+            title="Research Assistant (Industrial R & D)"
+            subTitle="CSIR-Indian Institute of Integrative Medicine, Jammu - (2010 - 2011)"
+            result="India"
+            // des="enrolled in AcSIR (Academy of Scientific and Innovative Research, http://acsir.res.in/ ). Under Supervision of Dr. Ram A. Vishwakarma"
+          />
+          <ResumeCard
+            title="Research Associate"
+            subTitle="CSIR-Indian Institute of Integrative Medicine (2007-2010)"
+            result="India"
+            // des="In Natural Product Chemistry lab (Medicinal Chemistry division) New Chemical Entities"
           />
         </div>
       </div>
