@@ -1,7 +1,13 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe} from "react-icons/fa";
+import { FaMobile, FaGlobe } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
-
+import {
+  projectOne,
+  projectTwo,
+  projectThree,
+  testimonialOne,
+  testimonialTwo,
+} from "../assets";
 // Features Data
 export const featuresData = [
   {
@@ -38,5 +44,79 @@ export const featuresData = [
     icon: <FaGlobe />,
     title: "Hosting Websites",
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
+  },
+];
+
+// Projects Data
+export const projectsData = [
+  {
+    id: 1,
+    title: "SOCIAL MEDIA CLONE",
+    des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+    img: projectOne,
+  },
+  {
+    id: 2,
+    title: "E-commerce Website",
+    des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+    img: projectTwo,
+  },
+  {
+    id: 3,
+    title: "Chatting App",
+    des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+    img: projectThree,
+  },
+  {
+    id: 4,
+    title: "SOCIAL MEDIA CLONE",
+    des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+    img: projectOne,
+  },
+  {
+    id: 5,
+    title: "E-commerce Website",
+    des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+    img: projectTwo,
+  },
+  {
+    id: 6,
+    title: "Chatting App",
+    des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+    img: projectThree,
+  },
+];
+
+// Testimonial
+export const testimonialData = [
+  {
+    id: 1,
+    name: "Jone Duone Joe",
+    companyName: "Bound - Trolola",
+    jobTitle: " Operation Officer",
+    img: testimonialOne,
+    title: "Travel Mobile App Design.",
+    date: "via Upwork - Mar 4, 2015 - Aug 30, 2021 test",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum, eos natus ipsum numquam veniam officia necessitatibus ratione quos debitis exercitationem repudiandae facilis id neque nihil accusantium perspiciatis repellat? Iste.",
+  },
+  {
+    id: 2,
+    name: "Jone Duone Joe",
+    companyName: "Bound - Trolola",
+    jobTitle: " Operation Officer",
+    img: testimonialTwo,
+    title: "Travel Mobile App Design.",
+    date: "via Upwork - Mar 4, 2015 - Aug 30, 2021 test",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum, eos natus ipsum numquam veniam officia necessitatibus ratione quos debitis exercitationem repudiandae facilis id neque nihil accusantium perspiciatis repellat? Iste.",
+  },
+  {
+    id: 3,
+    name: "Jone Duone Joe",
+    companyName: "Bound - Trolola",
+    jobTitle: " Operation Officer",
+    img: testimonialTwo,
+    title: "Travel Mobile App Design.",
+    date: "via Upwork - Mar 4, 2015 - Aug 30, 2021 test",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum, eos natus ipsum numquam veniam officia necessitatibus ratione quos debitis exercitationem repudiandae facilis id neque nihil accusantium perspiciatis repellat? Iste.",
   },
 ];
