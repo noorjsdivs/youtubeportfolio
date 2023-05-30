@@ -1,41 +1,40 @@
-import React, { useState } from "react";
-// Icons
-import { navLinksData } from "../../data/data";
-import { RxHamburgerMenu } from "react-icons/rx";
+import React from 'react'
+// Icon
+import { FaTimes } from "react-icons/fa";
 // Components
-import ResponsiveMenu from "./ResponsiveMenu";
-import Navlinks from "./Navlinks";
-import Logo  from "../logo/Logo";
-const Navbar = () => {
-  const [nav, setNav] = useState(false);
-  const handleNav = () => {
-    setNav(!nav);
-  };
+import Navlinks from './Navlinks';
+import Media from '../media/Media';
+import Logo from '../logo/Logo';
+const ResponsiveMenu = ({nav,handleNav,navLinksData}) => {
   return (
-    <nav className="w-full bg-primaryColor sticky z-50 top-0 left-0 right-0 shadow-shadowOne">
-      {/* container */}
-      <div className="flex justify-between items-center py-2 max-w-screen-xl mx-auto px-3 md:px-8">
-        {/* logo */}
-        <Logo name='john doe'/>
-        {/* navlinks */}
-        <ul className="hidden md:flex items-center space-x-8">
-          {navLinksData.map((item) => (
-            <Navlinks item={item} key={item.id} />
-          ))}
-        </ul>
-        {/* Hamburger icon */}
-        <button className="inline-block md:hidden hover:text-secondaryColor duration-300" onClick={handleNav}>
-          <RxHamburgerMenu size={30} />
-        </button>
-        {/* Mobile menu */}
-        <ResponsiveMenu
-          nav={nav}
-          navLinksData={navLinksData}
-          handleNav={handleNav}
-        />
+    <div
+    className={`flex flex-col gap-5 md:hidden fixed z-50 duration-500 top-0 bg-gray-900 w-3/4 h-screen p-4 ${
+      nav ? "left-0" : "-left-full"
+    }`}
+  >
+    <div className="flex justify-between items-center">
+      {/* Logo Image */}
+      <div>
+       <Logo name='john deo' />
       </div>
-    </nav>
-  );
-};
+      <button className='hover:text-secondaryColor hover:rotate-[360deg] duration-500' onClick={handleNav}>
+        <FaTimes size={30} />
+      </button>
+    </div>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
+      soluta perspiciatis molestias enim cum repellat, magnam
+      exercitationem distinctio aliquid nam.
+    </p>
+    <ul className="flex flex-col items-start space-y-5 mb-5">
+      {navLinksData.map((item) => (
+        <Navlinks item={item} key={item.id} handleNav={handleNav} />
+      ))}
+    </ul>
+    {/* Media */}
+    <Media/>
+  </div>
+  )
+}
 
-export default Navbar;
+export default ResponsiveMenu

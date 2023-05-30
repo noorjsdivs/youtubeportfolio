@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 // Icons
-import { navLinksData } from "../../data/data";
 import { RxHamburgerMenu } from "react-icons/rx";
+// Data
+import { navLinksData } from "../../data/data";
 // Components
 import ResponsiveMenu from "./ResponsiveMenu";
 import Navlinks from "./Navlinks";
@@ -16,7 +17,7 @@ const Navbar = () => {
       {/* container */}
       <div className="flex justify-between items-center py-2 max-w-screen-xl mx-auto px-3 md:px-8">
         {/* logo */}
-        <Logo name='iman'/>
+        <Logo name='john doe'/>
         {/* navlinks */}
         <ul className="hidden md:flex items-center space-x-8">
           {navLinksData.map((item) => (
