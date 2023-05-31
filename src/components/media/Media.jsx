@@ -28,16 +28,16 @@ const Media = ({ show ,text}) => {
             best skill on
           </h3>
           <div className="flex items-center gap-6">
-            <span className="mediaIcon">
+            <span className="bannerIcon">
               <FaReact />
             </span>
-            <span className="mediaIcon">
+            <span className="bannerIcon">
               <SiNextdotjs />
             </span>
-            <span className="mediaIcon">
+            <span className="bannerIcon">
               <SiTypescript />
             </span>
-            <span className="mediaIcon">
+            <span className="bannerIcon">
               <SiTailwindcss />
             </span>
           </div>
