@@ -17,7 +17,7 @@ const ResponsiveMenu = ({nav,handleNav,navLinksData}) => {
       <div>
        <Logo name='john deo' />
       </div>
-      <button className='hover:text-secondaryColor hover:rotate-[360deg] duration-500' onClick={handleNav}>
+      <button className='hover:text-designColor hover:rotate-[360deg] duration-500' onClick={handleNav}>
         <FaTimes size={30} />
       </button>
     </div>

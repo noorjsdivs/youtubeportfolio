@@ -13,7 +13,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <nav className="w-full bg-primaryColor sticky z-50 top-0 left-0 right-0 shadow-shadowOne">
+    <nav className="w-full bg-bodyColor sticky z-50 top-0 left-0 right-0 shadow-shadowOne">
       {/* container */}
       <div className="flex justify-between items-center py-2 max-w-screen-xl mx-auto px-3 md:px-8">
         {/* logo */}
@@ -25,7 +25,7 @@ const Navbar = () => {
           ))}
         </ul>
         {/* Hamburger icon */}
-        <button className="inline-block md:hidden hover:text-secondaryColor duration-300" onClick={handleNav}>
+        <button className="inline-block md:hidden hover:text-designColor duration-300" onClick={handleNav}>
           <RxHamburgerMenu size={30} />
         </button>
         {/* Mobile menu */}
