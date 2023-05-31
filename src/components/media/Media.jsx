@@ -11,13 +11,13 @@ const Media = ({ show ,text}) => {
           </h3>
         )}
         <div className="flex items-center gap-6">
-          <span className="mediaIcon">
+          <span className="bannerIcon">
             <FaLinkedinIn />
           </span>
-          <span className="mediaIcon">
+          <span className="bannerIcon">
             <FaGithub />
           </span>
-          <span className="mediaIcon">
+          <span className="bannerIcon">
             <FaTelegram />
           </span>
         </div>
