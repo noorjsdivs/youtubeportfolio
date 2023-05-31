@@ -6,9 +6,9 @@ const Logo = ({ name }) => {
       <img
         src={logoImg}
         className="h-[50px] w-[50px] border border-gray-400 p-1 rounded-full"
-        alt="john doe"
+        alt="Mohammad"
       />
-      <span className="uppercase text-base tracking-wide text-secondaryColor font-medium">
+      <span className="uppercase text-base tracking-wide text-designColor font-medium">
         {name}
       </span>
     </h2>

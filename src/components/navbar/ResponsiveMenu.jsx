@@ -15,7 +15,7 @@ const ResponsiveMenu = ({nav,handleNav,navLinksData}) => {
     <div className="flex justify-between items-center">
       {/* Logo Image */}
       <div>
-       <Logo name='john deo' />
+       <Logo name='Mohammad' />
       </div>
       <button className='hover:text-designColor hover:rotate-[360deg] duration-500' onClick={handleNav}>
         <FaTimes size={30} />

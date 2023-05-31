@@ -17,7 +17,7 @@ const Navbar = () => {
       {/* container */}
       <div className="flex justify-between items-center py-2 max-w-screen-xl mx-auto px-3 md:px-8">
         {/* logo */}
-        <Logo name='john doe'/>
+        <Logo name='Mohammad'/>
         {/* navlinks */}
         <ul className="hidden md:flex items-center space-x-8">
           {navLinksData.map((item) => (
